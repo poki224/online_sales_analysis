@@ -8,16 +8,10 @@ import random
 manager = ProductManager()
 
 # Dodavanje proizvoda
-manager.add_product(Product("Monitor", 200, 12))
-manager.add_product(Product("Telefon", 800, 5))
-manager.add_product(Product("Tablet", 500, 7))
-manager.add_product(Product("Laptop", 1200, 10))
-
-# Prikaz svih proizvoda
-manager.display_all_products()
-
-# Prikaz ukupne vrednosti inventara
-manager.total_inventory_value()
+manager.add_product(Product("Racunar", 300, 2))
+manager.add_product(Product("Tastatura", 50, 50))
+manager.add_product(Product("gejmerski mis", 120, 15))
+manager.add_product(Product("Gejmerski laptop", 1500, 20))
 
 # Kreiranje instance klase Cart
 cart = Cart()
