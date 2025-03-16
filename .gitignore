@@ -7,3 +7,7 @@ config.json
 *.jpg
 *.jpeg
 *.gif
+
+# S obzirom da prilazem i word dokument
+
+*.docx
